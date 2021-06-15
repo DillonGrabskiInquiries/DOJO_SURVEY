@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css' )}}">
+    <title>Dojo Survey</title>
+</head>
+<body>
+    <section>
+        <div class="box">
+            <h2>Your Name: <input type="text"></h2>
+            <h2>Dojo Location: <select name="dropdownLoc" id="dropdownLoc"></select></h2>
+            <h2>Favorite Language: <select name="dropdownLan" id="dropdownLan"></select></h2>
+            <h2>Comment (optional): <textarea name="optional" id="optional" cols="30" rows="10"></textarea></h2>
+        </div>
+    </section>
+</body>
+</html>

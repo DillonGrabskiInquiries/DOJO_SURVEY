@@ -1,0 +1,17 @@
+* {
+    margin: 0 auto;
+    width: 1200px;
+    height: 1200px;
+}
+
+body {
+    display: flex;
+}
+
+.box {
+    position: relative;
+    display: flex;
+    height: 1000px;
+    width: 1000px;
+    outline: black solid 3px;
+}
