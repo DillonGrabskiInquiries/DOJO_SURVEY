@@ -1,7 +1,7 @@
 from flask import Flask, render_template
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/result")
 def renderLists(name, location, language, comment):
     users = [
     {'name' : 'name'},
